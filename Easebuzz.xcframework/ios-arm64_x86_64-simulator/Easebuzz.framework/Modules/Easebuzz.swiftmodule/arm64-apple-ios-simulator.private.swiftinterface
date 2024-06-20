@@ -1,0 +1,537 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Easebuzz
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import DeveloperToolsSupport
+@_exported import Easebuzz
+import Foundation
+import JavaScriptCore
+import ObjectiveC
+import Swift
+import SwiftUI
+import SystemConfiguration
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+extension Foundation.NSMutableURLRequest {
+  public func setBodyContent(parameters: [Swift.String : Any])
+}
+@_inheritsConvenienceInitializers @objc public class StaticDataModel : ObjectiveC.NSObject {
+  @objc public static let TXN_SUCCESS_CODE: Swift.String
+  @objc public static let TXN_PENDING_CODE: Swift.String
+  @objc public static let TXN_FAILED_CODE: Swift.String
+  @objc public static let TXN_TIMEOUT_CODE: Swift.String
+  @objc public static let TXN_BACKPRESSED_CODE: Swift.String
+  @objc public static let TXN_USERCANCELLED_CODE: Swift.String
+  @objc public static let TXN_USER_FAILED_CODE: Swift.String
+  @objc public static let TXN_ERROR_SERVER_ERROR_CODE: Swift.String
+  @objc public static let TXN_ERROR_NO_RETRY_CODE: Swift.String
+  @objc public static let TXN_ERROR_TXN_NOT_ALLOWED_CODE: Swift.String
+  @objc public static let TXN_INVALID_INPUT_DATA_CODE: Swift.String
+  @objc public static let TXN_ERROR_RETRY_FAILED_CODE: Swift.String
+  @objc public static let TXN_SESSION_STARTED_CODE: Swift.String
+  @objc public static let TXN_SESSION_EXPIRED_CODE: Swift.String
+  @objc public static let TXN_SESSION_CANCELLED_CODE_TRUE: Swift.String
+  @objc public static let TXN_SESSION_CANCELLED_CODE_FALSE: Swift.String
+  @objc public static let TXN_BANK_BACK_PRESSED_CODE: Swift.String
+  @objc public static let TXN_UPI_CANCELLED_CODE: Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+@available(*, deprecated, renamed: "SwiftyJSONError.errorDomain", message: "ErrorDomain is deprecated. Use `SwiftyJSONError.errorDomain` instead.")
+public let ErrorDomain: Swift.String
+@available(*, deprecated, renamed: "SwiftyJSONError.unsupportedType", message: "ErrorUnsupportedType is deprecated. Use `SwiftyJSONError.unsupportedType` instead.")
+public let ErrorUnsupportedType: Swift.Int
+@available(*, deprecated, renamed: "SwiftyJSONError.indexOutOfBounds", message: "ErrorIndexOutOfBounds is deprecated. Use `SwiftyJSONError.indexOutOfBounds` instead.")
+public let ErrorIndexOutOfBounds: Swift.Int
+@available(*, deprecated, renamed: "SwiftyJSONError.wrongType", message: "ErrorWrongType is deprecated. Use `SwiftyJSONError.wrongType` instead.")
+public let ErrorWrongType: Swift.Int
+@available(*, deprecated, renamed: "SwiftyJSONError.notExist", message: "ErrorNotExist is deprecated. Use `SwiftyJSONError.notExist` instead.")
+public let ErrorNotExist: Swift.Int
+@available(*, deprecated, renamed: "SwiftyJSONError.invalidJSON", message: "ErrorInvalidJSON is deprecated. Use `SwiftyJSONError.invalidJSON` instead.")
+public let ErrorInvalidJSON: Swift.Int
+public enum SwiftyJSONError : Swift.Int, Swift.Error {
+  case unsupportedType
+  case indexOutOfBounds
+  case elementTooDeep
+  case wrongType
+  case notExist
+  case invalidJSON
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension Easebuzz.SwiftyJSONError : Foundation.CustomNSError {
+  public static var errorDomain: Swift.String {
+    get
+  }
+  public var errorCode: Swift.Int {
+    get
+  }
+  public var errorUserInfo: [Swift.String : Any] {
+    get
+  }
+}
+public enum Type : Swift.Int {
+  case number
+  case string
+  case bool
+  case array
+  case dictionary
+  case null
+  case unknown
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct JSON {
+  public init(data: Foundation.Data, options opt: Foundation.JSONSerialization.ReadingOptions = []) throws
+  public init(_ object: Any)
+  public init(parseJSON jsonString: Swift.String)
+  @available(*, deprecated, message: "Use instead `init(parseJSON: )`")
+  public static func parse(_ json: Swift.String) -> Easebuzz.JSON
+  public mutating func merge(with other: Easebuzz.JSON) throws
+  public func merged(with other: Easebuzz.JSON) throws -> Easebuzz.JSON
+  public var type: Easebuzz.`Type` {
+    get
+  }
+  public var error: Easebuzz.SwiftyJSONError? {
+    get
+  }
+  public var object: Any {
+    get
+    set
+  }
+  @available(*, unavailable, renamed: "null")
+  public static var nullJSON: Easebuzz.JSON {
+    get
+  }
+  public static var null: Easebuzz.JSON {
+    get
+  }
+}
+public enum Index<T> : Swift.Comparable {
+  case array(Swift.Int)
+  case dictionary(Swift.DictionaryIndex<Swift.String, T>)
+  case null
+  public static func == (lhs: Easebuzz.Index<T>, rhs: Easebuzz.Index<T>) -> Swift.Bool
+  public static func < (lhs: Easebuzz.Index<T>, rhs: Easebuzz.Index<T>) -> Swift.Bool
+}
+public typealias JSONIndex = Easebuzz.Index<Easebuzz.JSON>
+public typealias JSONRawIndex = Easebuzz.Index<Any>
+extension Easebuzz.JSON : Swift.Collection {
+  public typealias Index = Easebuzz.JSONRawIndex
+  public var startIndex: Easebuzz.JSON.Index {
+    get
+  }
+  public var endIndex: Easebuzz.JSON.Index {
+    get
+  }
+  public func index(after i: Easebuzz.JSON.Index) -> Easebuzz.JSON.Index
+  public subscript(position: Easebuzz.JSON.Index) -> (Swift.String, Easebuzz.JSON) {
+    get
+  }
+  public typealias Element = (Swift.String, Easebuzz.JSON)
+  public typealias Indices = Swift.DefaultIndices<Easebuzz.JSON>
+  public typealias Iterator = Swift.IndexingIterator<Easebuzz.JSON>
+  public typealias SubSequence = Swift.Slice<Easebuzz.JSON>
+}
+public enum JSONKey {
+  case index(Swift.Int)
+  case key(Swift.String)
+}
+public protocol JSONSubscriptType {
+  var jsonKey: Easebuzz.JSONKey { get }
+}
+extension Swift.Int : Easebuzz.JSONSubscriptType {
+  public var jsonKey: Easebuzz.JSONKey {
+    get
+  }
+}
+extension Swift.String : Easebuzz.JSONSubscriptType {
+  public var jsonKey: Easebuzz.JSONKey {
+    get
+  }
+}
+extension Easebuzz.JSON {
+  public subscript(path: [any Easebuzz.JSONSubscriptType]) -> Easebuzz.JSON {
+    get
+    set
+  }
+  public subscript(path: any Easebuzz.JSONSubscriptType...) -> Easebuzz.JSON {
+    get
+    set
+  }
+}
+extension Easebuzz.JSON : Swift.ExpressibleByStringLiteral {
+  public init(stringLiteral value: Swift.StringLiteralType)
+  public init(extendedGraphemeClusterLiteral value: Swift.StringLiteralType)
+  public init(unicodeScalarLiteral value: Swift.StringLiteralType)
+  public typealias ExtendedGraphemeClusterLiteralType = Swift.StringLiteralType
+  public typealias StringLiteralType = Swift.StringLiteralType
+  public typealias UnicodeScalarLiteralType = Swift.StringLiteralType
+}
+extension Easebuzz.JSON : Swift.ExpressibleByIntegerLiteral {
+  public init(integerLiteral value: Swift.IntegerLiteralType)
+  public typealias IntegerLiteralType = Swift.IntegerLiteralType
+}
+extension Easebuzz.JSON : Swift.ExpressibleByBooleanLiteral {
+  public init(booleanLiteral value: Swift.BooleanLiteralType)
+  public typealias BooleanLiteralType = Swift.BooleanLiteralType
+}
+extension Easebuzz.JSON : Swift.ExpressibleByFloatLiteral {
+  public init(floatLiteral value: Swift.FloatLiteralType)
+  public typealias FloatLiteralType = Swift.FloatLiteralType
+}
+extension Easebuzz.JSON : Swift.ExpressibleByDictionaryLiteral {
+  public init(dictionaryLiteral elements: (Swift.String, Any)...)
+  public typealias Key = Swift.String
+  public typealias Value = Any
+}
+extension Easebuzz.JSON : Swift.ExpressibleByArrayLiteral {
+  public init(arrayLiteral elements: Any...)
+  public typealias ArrayLiteralElement = Any
+}
+extension Easebuzz.JSON : Swift.ExpressibleByNilLiteral {
+  @available(*, deprecated, message: "use JSON.null instead. Will be removed in future versions")
+  public init(nilLiteral: ())
+}
+extension Easebuzz.JSON : Swift.RawRepresentable {
+  public init?(rawValue: Any)
+  public var rawValue: Any {
+    get
+  }
+  public func rawData(options opt: Foundation.JSONSerialization.WritingOptions = JSONSerialization.WritingOptions(rawValue: 0)) throws -> Foundation.Data
+  public func rawString(_ encoding: Swift.String.Encoding = .utf8, options opt: Foundation.JSONSerialization.WritingOptions = .prettyPrinted) -> Swift.String?
+  public func rawString(_ options: [Easebuzz.writingOptionsKeys : Any]) -> Swift.String?
+  public typealias RawValue = Any
+}
+extension Easebuzz.JSON : Swift.CustomStringConvertible, Swift.CustomDebugStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+  public var debugDescription: Swift.String {
+    get
+  }
+}
+extension Easebuzz.JSON {
+  public var array: [Easebuzz.JSON]? {
+    get
+  }
+  public var arrayValue: [Easebuzz.JSON] {
+    get
+  }
+  public var arrayObject: [Any]? {
+    get
+    set
+  }
+}
+extension Easebuzz.JSON {
+  public var dictionary: [Swift.String : Easebuzz.JSON]? {
+    get
+  }
+  public var dictionaryValue: [Swift.String : Easebuzz.JSON] {
+    get
+  }
+  public var dictionaryObject: [Swift.String : Any]? {
+    get
+    set
+  }
+}
+extension Easebuzz.JSON {
+  public var bool: Swift.Bool? {
+    get
+    set
+  }
+  public var boolValue: Swift.Bool {
+    get
+    set
+  }
+}
+extension Easebuzz.JSON {
+  public var string: Swift.String? {
+    get
+    set
+  }
+  public var stringValue: Swift.String {
+    get
+    set
+  }
+}
+extension Easebuzz.JSON {
+  public var number: Foundation.NSNumber? {
+    get
+    set
+  }
+  public var numberValue: Foundation.NSNumber {
+    get
+    set
+  }
+}
+extension Easebuzz.JSON {
+  public var null: Foundation.NSNull? {
+    get
+    set
+  }
+  public func exists() -> Swift.Bool
+}
+extension Easebuzz.JSON {
+  public var url: Foundation.URL? {
+    get
+    set
+  }
+}
+extension Easebuzz.JSON {
+  public var double: Swift.Double? {
+    get
+    set
+  }
+  public var doubleValue: Swift.Double {
+    get
+    set
+  }
+  public var float: Swift.Float? {
+    get
+    set
+  }
+  public var floatValue: Swift.Float {
+    get
+    set
+  }
+  public var int: Swift.Int? {
+    get
+    set
+  }
+  public var intValue: Swift.Int {
+    get
+    set
+  }
+  public var uInt: Swift.UInt? {
+    get
+    set
+  }
+  public var uIntValue: Swift.UInt {
+    get
+    set
+  }
+  public var int8: Swift.Int8? {
+    get
+    set
+  }
+  public var int8Value: Swift.Int8 {
+    get
+    set
+  }
+  public var uInt8: Swift.UInt8? {
+    get
+    set
+  }
+  public var uInt8Value: Swift.UInt8 {
+    get
+    set
+  }
+  public var int16: Swift.Int16? {
+    get
+    set
+  }
+  public var int16Value: Swift.Int16 {
+    get
+    set
+  }
+  public var uInt16: Swift.UInt16? {
+    get
+    set
+  }
+  public var uInt16Value: Swift.UInt16 {
+    get
+    set
+  }
+  public var int32: Swift.Int32? {
+    get
+    set
+  }
+  public var int32Value: Swift.Int32 {
+    get
+    set
+  }
+  public var uInt32: Swift.UInt32? {
+    get
+    set
+  }
+  public var uInt32Value: Swift.UInt32 {
+    get
+    set
+  }
+  public var int64: Swift.Int64? {
+    get
+    set
+  }
+  public var int64Value: Swift.Int64 {
+    get
+    set
+  }
+  public var uInt64: Swift.UInt64? {
+    get
+    set
+  }
+  public var uInt64Value: Swift.UInt64 {
+    get
+    set
+  }
+}
+extension Easebuzz.JSON : Swift.Comparable {
+}
+public func == (lhs: Easebuzz.JSON, rhs: Easebuzz.JSON) -> Swift.Bool
+public func <= (lhs: Easebuzz.JSON, rhs: Easebuzz.JSON) -> Swift.Bool
+public func >= (lhs: Easebuzz.JSON, rhs: Easebuzz.JSON) -> Swift.Bool
+public func > (lhs: Easebuzz.JSON, rhs: Easebuzz.JSON) -> Swift.Bool
+public func < (lhs: Easebuzz.JSON, rhs: Easebuzz.JSON) -> Swift.Bool
+public enum writingOptionsKeys {
+  case jsonSerialization
+  case castNilToNSNull
+  case maxObjextDepth
+  case encoding
+  public static func == (a: Easebuzz.writingOptionsKeys, b: Easebuzz.writingOptionsKeys) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class Logger {
+  public static func logError(tag: Swift.String, message: Swift.String)
+  public static func logDebug(tag: Swift.String, message: Swift.String)
+  public static func enableLog(enable: Swift.Bool)
+  @objc deinit
+}
+@objc public protocol PayWithEasebuzzCallback : ObjectiveC.NSObjectProtocol {
+  @objc func PEBCallback(data: [Swift.String : Swift.AnyObject])
+}
+@_inheritsConvenienceInitializers @objc public class PayWithEasebuzz : ObjectiveC.NSObject {
+  @objc public class func setUp(pebCallback: any Easebuzz.PayWithEasebuzzCallback)
+  @objc public class func initiliazed() -> Swift.Bool
+  @objc public class func invokePaymentOptionsView(paymentObj: Easebuzz.Payment, isFrom: Any)
+  @objc override dynamic public init()
+  @objc deinit
+}
+public enum Platform {
+  case reactNative
+  case flutter
+  case capacitor
+  case cordova
+  case xamarin
+  case unknown
+  public static func == (a: Easebuzz.Platform, b: Easebuzz.Platform) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class PlatformIdentifier {
+  public static func identifyPlatform() -> Swift.Int
+  @objc deinit
+}
+extension UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public func makeToast(_ message: Swift.String?, duration: Foundation.TimeInterval = ToastManager.shared.duration, position: Easebuzz.ToastPosition = ToastManager.shared.position, title: Swift.String? = nil, image: UIKit.UIImage? = nil, style: Easebuzz.ToastStyle = ToastManager.shared.style, completion: ((_ didTap: Swift.Bool) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) public func makeToast(_ message: Swift.String?, duration: Foundation.TimeInterval = ToastManager.shared.duration, point: CoreFoundation.CGPoint, title: Swift.String?, image: UIKit.UIImage?, style: Easebuzz.ToastStyle = ToastManager.shared.style, completion: ((_ didTap: Swift.Bool) -> Swift.Void)?)
+  @_Concurrency.MainActor(unsafe) public func showToast(_ toast: UIKit.UIView, duration: Foundation.TimeInterval = ToastManager.shared.duration, position: Easebuzz.ToastPosition = ToastManager.shared.position, completion: ((_ didTap: Swift.Bool) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) public func showToast(_ toast: UIKit.UIView, duration: Foundation.TimeInterval = ToastManager.shared.duration, point: CoreFoundation.CGPoint, completion: ((_ didTap: Swift.Bool) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) public func hideToast()
+  @_Concurrency.MainActor(unsafe) public func hideToast(_ toast: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) public func hideAllToasts(includeActivity: Swift.Bool = false, clearQueue: Swift.Bool = true)
+  @_Concurrency.MainActor(unsafe) public func clearToastQueue()
+  @_Concurrency.MainActor(unsafe) public func makeToastActivity(_ position: Easebuzz.ToastPosition)
+  @_Concurrency.MainActor(unsafe) public func makeToastActivity(_ point: CoreFoundation.CGPoint)
+  @_Concurrency.MainActor(unsafe) public func hideToastActivity()
+  @_Concurrency.MainActor(unsafe) public func toastViewForMessage(_ message: Swift.String?, title: Swift.String?, image: UIKit.UIImage?, style: Easebuzz.ToastStyle) throws -> UIKit.UIView
+}
+public struct ToastStyle {
+  public init()
+  public var backgroundColor: UIKit.UIColor
+  public var titleColor: UIKit.UIColor
+  public var messageColor: UIKit.UIColor
+  public var maxWidthPercentage: CoreFoundation.CGFloat {
+    get
+    set
+  }
+  public var maxHeightPercentage: CoreFoundation.CGFloat {
+    get
+    set
+  }
+  public var horizontalPadding: CoreFoundation.CGFloat
+  public var verticalPadding: CoreFoundation.CGFloat
+  public var cornerRadius: CoreFoundation.CGFloat
+  public var titleFont: UIKit.UIFont
+  public var messageFont: UIKit.UIFont
+  public var titleAlignment: UIKit.NSTextAlignment
+  public var messageAlignment: UIKit.NSTextAlignment
+  public var titleNumberOfLines: Swift.Int
+  public var messageNumberOfLines: Swift.Int
+  public var displayShadow: Swift.Bool
+  public var shadowColor: UIKit.UIColor
+  public var shadowOpacity: Swift.Float {
+    get
+    set
+  }
+  public var shadowRadius: CoreFoundation.CGFloat
+  public var shadowOffset: CoreFoundation.CGSize
+  public var imageSize: CoreFoundation.CGSize
+  public var activitySize: CoreFoundation.CGSize
+  public var fadeDuration: Swift.Double
+  public var activityIndicatorColor: UIKit.UIColor
+  public var activityBackgroundColor: UIKit.UIColor
+}
+@_hasMissingDesignatedInitializers public class ToastManager {
+  public static let shared: Easebuzz.ToastManager
+  public var style: Easebuzz.ToastStyle
+  public var isTapToDismissEnabled: Swift.Bool
+  public var isQueueEnabled: Swift.Bool
+  public var duration: Swift.Double
+  public var position: Easebuzz.ToastPosition
+  @objc deinit
+}
+public enum ToastPosition {
+  case top
+  case center
+  case bottom
+  public static func == (a: Easebuzz.ToastPosition, b: Easebuzz.ToastPosition) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc public class Payment : ObjectiveC.NSObject {
+  @objc public init(customerData: Swift.Dictionary<Swift.String, Any>)
+  public func isValid() -> (validity: Swift.Bool, error: Swift.String)
+  @objc public func isValid() -> Swift.Bool
+  public func isValidTxnId() -> (validity: Swift.Bool, error: Swift.String)
+  public func isValidTxnId() -> Foundation.NSDictionary
+  public func isValidAmount() -> (validity: Swift.Bool, error: Swift.String)
+  public func isValidAmount() -> Foundation.NSDictionary
+  public func isValidName() -> (validity: Swift.Bool, error: Swift.String)
+  public func isValidName() -> Foundation.NSDictionary
+  public func isValidPhone() -> (validity: Swift.Bool, error: Swift.String)
+  public func isValidPhone() -> Foundation.NSDictionary
+  public func isValidProductInfo() -> (validity: Swift.Bool, error: Swift.String)
+  public func isValidProductInfo() -> Foundation.NSDictionary
+  public func isValidEmail() -> (validity: Swift.Bool, error: Swift.String)
+  public func isValidEmail() -> Foundation.NSDictionary
+  @objc deinit
+}
+extension Easebuzz.SwiftyJSONError : Swift.Equatable {}
+extension Easebuzz.SwiftyJSONError : Swift.Hashable {}
+extension Easebuzz.SwiftyJSONError : Swift.RawRepresentable {}
+extension Easebuzz.`Type` : Swift.Equatable {}
+extension Easebuzz.`Type` : Swift.Hashable {}
+extension Easebuzz.`Type` : Swift.RawRepresentable {}
+extension Easebuzz.writingOptionsKeys : Swift.Equatable {}
+extension Easebuzz.writingOptionsKeys : Swift.Hashable {}
+extension Easebuzz.Platform : Swift.Equatable {}
+extension Easebuzz.Platform : Swift.Hashable {}
+extension Easebuzz.ToastPosition : Swift.Equatable {}
+extension Easebuzz.ToastPosition : Swift.Hashable {}
