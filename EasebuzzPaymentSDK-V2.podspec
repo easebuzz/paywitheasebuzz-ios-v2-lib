@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.summary      = "CocoaPod implementation of Easebuzz Payment SDK."
 
   spec.description  = <<-DESC
-  'We are one of India’s leading payment solutions platform, serving more than 1,00,000 businesses with full-stack technology solutions to accept payments, send payouts & manage end-to-end financial operations with ease.'
+  'We are one of India’s leading payment solutions platform, serving more than 1,00,000+ businesses with full-stack technology solutions to accept payments, send payouts & manage end-to-end financial operations with ease.'
                        DESC
 
   spec.homepage     = "https://github.com/easebuzz/paywitheasebuzz-ios-lib"
