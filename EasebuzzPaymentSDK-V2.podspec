@@ -23,7 +23,7 @@ Pod::Spec.new do |spec|
 
   spec.author             = { 'Easebuzz' => 'info@easebuzz.in' }
 
-  spec.source = { :git => 'https://easebuzz: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@github.com/easebuzz/paywitheasebuzz-ios-v2-lib', :tag => '1.1.1' }
+  spec.source = { :git => 'https://easebuzz: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@github.com/easebuzz/paywitheasebuzz-ios-v2-lib.git', :tag => '1.1.1' }
 
   spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
