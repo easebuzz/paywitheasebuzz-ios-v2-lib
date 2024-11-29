@@ -18,11 +18,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Xq2voVA0AjuxaTSemA/gSwIUGjM=
+		9ILIenlBBHGQbnGNrlVTTUwAscs=
 		</data>
 		<key>Modules/Easebuzz.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Vc57iQzMJJMg9fHh94ZzHpbK1aM=
+		kq9RKlmSTr6+o+AWSSzyEUEA7hU=
 		</data>
 		<key>Modules/Easebuzz.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/Easebuzz.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		M+yYUPFsaHTAxbiJmyXDlwy3oOg=
+		C2DBdmzslUf38bpCSu4l43Dtywk=
 		</data>
 		<key>Modules/Easebuzz.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Vc57iQzMJJMg9fHh94ZzHpbK1aM=
+		kq9RKlmSTr6+o+AWSSzyEUEA7hU=
 		</data>
 		<key>Modules/Easebuzz.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/Easebuzz.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ZnA8VXlbJxxX1OJaebk0rpWXGos=
+		Zo9nbVA2nMeEbxnEwackc+dT8SI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -104,7 +104,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gyv7/tUWL5NfRCQiy0F8/eas7e7D+GR+tGosy7Oai0M=
+			n3YevvuQzh7XCylVM+WjdserIb5bVu3PYHD3gqzQDAw=
 			</data>
 		</dict>
 		<key>Modules/Easebuzz.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -132,14 +132,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			62OFad84wdJdldI6BQ3BJWApUK5Fj6Hjv5JWp+DrFFs=
+			2L57ylzB6WU2GIdQ+kosDrVfEMcbl1gkBIZj81BqNPs=
 			</data>
 		</dict>
 		<key>Modules/Easebuzz.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gyv7/tUWL5NfRCQiy0F8/eas7e7D+GR+tGosy7Oai0M=
+			n3YevvuQzh7XCylVM+WjdserIb5bVu3PYHD3gqzQDAw=
 			</data>
 		</dict>
 		<key>Modules/Easebuzz.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -167,7 +167,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Nyz4gQSqusAWnwSWUYjGVFNbBFdZ21AwVd12OmHUqbw=
+			ClXr8MJtKL02mivZf0y1YggT2vTGKUP25sH66+x7ylw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
