@@ -18,11 +18,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		lg2uKZoGbLhOrO3eFuVafDMeoIU=
+		E3DX/z7O9eaP4cn22Vcr6oIkEYI=
 		</data>
 		<key>Modules/Easebuzz.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		uqSN0mfFJcXjwPFb6PBX/NNr5cU=
+		ghWTnqdkgtWcoUoGCGq/vGDRPEw=
 		</data>
 		<key>Modules/Easebuzz.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/Easebuzz.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		uqSN0mfFJcXjwPFb6PBX/NNr5cU=
+		ghWTnqdkgtWcoUoGCGq/vGDRPEw=
 		</data>
 		<key>Modules/Easebuzz.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -104,7 +104,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kNzUjZDlvNbGiF6cTi77IVmTh/BF8goB3z66qk/k4V0=
+			CgSZuLI1nCtjfwVQqOW0UXM9d/UUCY6Q6AIId6McPq4=
 			</data>
 		</dict>
 		<key>Modules/Easebuzz.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -139,7 +139,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kNzUjZDlvNbGiF6cTi77IVmTh/BF8goB3z66qk/k4V0=
+			CgSZuLI1nCtjfwVQqOW0UXM9d/UUCY6Q6AIId6McPq4=
 			</data>
 		</dict>
 		<key>Modules/Easebuzz.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
