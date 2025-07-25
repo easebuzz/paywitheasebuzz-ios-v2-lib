@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		vR8SHAuMtP5ozI4MTg2zP2zf8Jk=
+		/gVlALprJ+RjpQQ/wxgmmRm54Sg=
 		</data>
 		<key>Headers/Easebuzz-Swift.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		8M1jf3qyWCBgnmbkLa49dv5Zccc=
+		GuzNhWRmjvlvRnQVQZOS+BD/ryo=
 		</data>
 		<key>Modules/Easebuzz.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/Easebuzz.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		zaHuzggkz2Wix3p9cPA9SXbp/Ac=
+		fG905sKu5T2sF+tP+JDjemnIAmI=
 		</data>
 		<key>Modules/Easebuzz.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		NmPLGdfXMM44RIKSxYcE966dYTE=
+		KetJEY3UkcX1IIa0MLh/1CLPcKw=
 		</data>
 		<key>Modules/Easebuzz.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		zaHuzggkz2Wix3p9cPA9SXbp/Ac=
+		fG905sKu5T2sF+tP+JDjemnIAmI=
 		</data>
 		<key>Modules/Easebuzz.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2CfeA33SwV9+IRCltWyvBT8jlEw=
+		VPTqE1rPdqpW8xjuhwRP6bmtxmg=
 		</data>
 		<key>Modules/Easebuzz.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -46,19 +46,19 @@
 		</data>
 		<key>Modules/Easebuzz.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Yr1ivS1Cx/vmjJOx+iGlWqCL4vo=
+		c70BMTTmde2iXF0JT9ee34+8YII=
 		</data>
 		<key>Modules/Easebuzz.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		sPwo6qUQvzkupt5zbcQTz7mKG8c=
+		4aRPfkOpr8XLKyePc8Dx0synsDI=
 		</data>
 		<key>Modules/Easebuzz.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Yr1ivS1Cx/vmjJOx+iGlWqCL4vo=
+		c70BMTTmde2iXF0JT9ee34+8YII=
 		</data>
 		<key>Modules/Easebuzz.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		T0W8Kt6bePfGsJJAgyEnNfDAT8k=
+		5uCbClCaMGa0vvBNNes+OsqJ/V0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -83,7 +83,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eF3URJ2HbH9vioWAEYe0+UnVb7p1HqdSJwdzH8UPYvw=
+			Clb9f7CCuKblcMvGPWWBv4WjAb+/GQlGXe+1BRglvbA=
 			</data>
 		</dict>
 		<key>Headers/Easebuzz-Swift.h</key>
@@ -111,28 +111,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vuhawWZAbUsr9ku4YT0qqH+WpNMRb+wxX24Xwiq9EoQ=
+			0jU/kS80iXlMDYg7ebBp/5ndU1Fbv89mMvagoCfNp5Y=
 			</data>
 		</dict>
 		<key>Modules/Easebuzz.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+dO4bjKPBLQ4gXJgZHM/K6+FOfxetqwvlUFh6I47UZE=
+			cGlAcwclcY5LXuZ27CRrGMyXhPp3ccMI5YwqdlkRHH0=
 			</data>
 		</dict>
 		<key>Modules/Easebuzz.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vuhawWZAbUsr9ku4YT0qqH+WpNMRb+wxX24Xwiq9EoQ=
+			0jU/kS80iXlMDYg7ebBp/5ndU1Fbv89mMvagoCfNp5Y=
 			</data>
 		</dict>
 		<key>Modules/Easebuzz.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nl9ozJ6r8pWOH8lxzMDEzATmhsTXNaTx54oCMqcLFj8=
+			Gkm2uqBTXx9Jc8auHq6nhuyMGNiq6g1iu6PTr3EMO2E=
 			</data>
 		</dict>
 		<key>Modules/Easebuzz.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -146,28 +146,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1IdUSvOnojrY907Nk9AXmS03AkCgwG+dejjvf/v11GY=
+			zmKmZbuYtNUKL3XVauiMzXokL6Yp5ps1HHLnkbmB6WQ=
 			</data>
 		</dict>
 		<key>Modules/Easebuzz.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7nzkcWGfs9v0gh7BWx/0V4z5Fmia4Qp8XvJPjnvevpo=
+			8i3DNHWWLTqtu3RLB2iDdFFqVjfYJfUP1saTrAxIxZE=
 			</data>
 		</dict>
 		<key>Modules/Easebuzz.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1IdUSvOnojrY907Nk9AXmS03AkCgwG+dejjvf/v11GY=
+			zmKmZbuYtNUKL3XVauiMzXokL6Yp5ps1HHLnkbmB6WQ=
 			</data>
 		</dict>
 		<key>Modules/Easebuzz.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6RdNnkTUkXuuNIFQeH+I0skCL9NeGRfyqigGQtFsPpg=
+			hqQ2Bre4Cfjwpz485GL6n2VV7vNhWsIEAPB+0AwN8dE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
