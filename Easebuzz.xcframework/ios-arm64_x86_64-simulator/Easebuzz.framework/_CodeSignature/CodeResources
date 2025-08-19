@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		/gVlALprJ+RjpQQ/wxgmmRm54Sg=
+		vR8SHAuMtP5ozI4MTg2zP2zf8Jk=
 		</data>
 		<key>Headers/Easebuzz-Swift.h</key>
 		<data>
@@ -18,47 +18,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		GuzNhWRmjvlvRnQVQZOS+BD/ryo=
+		La9uAmY5EnsUHONKKH+oLCtWsvo=
 		</data>
 		<key>Modules/Easebuzz.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		2DtjeoUa71olgYyGT0plBR56NeM=
+		I7Q6may/pJ3Bjt43DCi2rV7E3Aw=
 		</data>
 		<key>Modules/Easebuzz.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		fG905sKu5T2sF+tP+JDjemnIAmI=
+		zaHuzggkz2Wix3p9cPA9SXbp/Ac=
 		</data>
 		<key>Modules/Easebuzz.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		KetJEY3UkcX1IIa0MLh/1CLPcKw=
+		NmPLGdfXMM44RIKSxYcE966dYTE=
 		</data>
 		<key>Modules/Easebuzz.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		fG905sKu5T2sF+tP+JDjemnIAmI=
+		zaHuzggkz2Wix3p9cPA9SXbp/Ac=
 		</data>
 		<key>Modules/Easebuzz.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		VPTqE1rPdqpW8xjuhwRP6bmtxmg=
+		gT1S8dLxz2ZcD1SMmapAIo02ZTg=
 		</data>
 		<key>Modules/Easebuzz.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		2DtjeoUa71olgYyGT0plBR56NeM=
+		I7Q6may/pJ3Bjt43DCi2rV7E3Aw=
 		</data>
 		<key>Modules/Easebuzz.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		c70BMTTmde2iXF0JT9ee34+8YII=
+		Yr1ivS1Cx/vmjJOx+iGlWqCL4vo=
 		</data>
 		<key>Modules/Easebuzz.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		4aRPfkOpr8XLKyePc8Dx0synsDI=
+		sPwo6qUQvzkupt5zbcQTz7mKG8c=
 		</data>
 		<key>Modules/Easebuzz.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		c70BMTTmde2iXF0JT9ee34+8YII=
+		Yr1ivS1Cx/vmjJOx+iGlWqCL4vo=
 		</data>
 		<key>Modules/Easebuzz.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5uCbClCaMGa0vvBNNes+OsqJ/V0=
+		/8mGbkN2sqZceH9xdqw5f7utwRk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -83,7 +83,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Clb9f7CCuKblcMvGPWWBv4WjAb+/GQlGXe+1BRglvbA=
+			eF3URJ2HbH9vioWAEYe0+UnVb7p1HqdSJwdzH8UPYvw=
 			</data>
 		</dict>
 		<key>Headers/Easebuzz-Swift.h</key>
@@ -104,70 +104,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TfIAanJYiVbWadRu59Bbj6RqU18tDPdcY00PB7X6Bgo=
+			fKm5cuYjevwQPhrMxx5EprpdnBZ5lEmpXjQA+YiBr6Q=
 			</data>
 		</dict>
 		<key>Modules/Easebuzz.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0jU/kS80iXlMDYg7ebBp/5ndU1Fbv89mMvagoCfNp5Y=
+			vuhawWZAbUsr9ku4YT0qqH+WpNMRb+wxX24Xwiq9EoQ=
 			</data>
 		</dict>
 		<key>Modules/Easebuzz.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cGlAcwclcY5LXuZ27CRrGMyXhPp3ccMI5YwqdlkRHH0=
+			+dO4bjKPBLQ4gXJgZHM/K6+FOfxetqwvlUFh6I47UZE=
 			</data>
 		</dict>
 		<key>Modules/Easebuzz.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0jU/kS80iXlMDYg7ebBp/5ndU1Fbv89mMvagoCfNp5Y=
+			vuhawWZAbUsr9ku4YT0qqH+WpNMRb+wxX24Xwiq9EoQ=
 			</data>
 		</dict>
 		<key>Modules/Easebuzz.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gkm2uqBTXx9Jc8auHq6nhuyMGNiq6g1iu6PTr3EMO2E=
+			soQU21OE2k2nJCwwITrwQRuCMrq3vnlLkEb67e0Ci0g=
 			</data>
 		</dict>
 		<key>Modules/Easebuzz.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TfIAanJYiVbWadRu59Bbj6RqU18tDPdcY00PB7X6Bgo=
+			fKm5cuYjevwQPhrMxx5EprpdnBZ5lEmpXjQA+YiBr6Q=
 			</data>
 		</dict>
 		<key>Modules/Easebuzz.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zmKmZbuYtNUKL3XVauiMzXokL6Yp5ps1HHLnkbmB6WQ=
+			1IdUSvOnojrY907Nk9AXmS03AkCgwG+dejjvf/v11GY=
 			</data>
 		</dict>
 		<key>Modules/Easebuzz.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8i3DNHWWLTqtu3RLB2iDdFFqVjfYJfUP1saTrAxIxZE=
+			7nzkcWGfs9v0gh7BWx/0V4z5Fmia4Qp8XvJPjnvevpo=
 			</data>
 		</dict>
 		<key>Modules/Easebuzz.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zmKmZbuYtNUKL3XVauiMzXokL6Yp5ps1HHLnkbmB6WQ=
+			1IdUSvOnojrY907Nk9AXmS03AkCgwG+dejjvf/v11GY=
 			</data>
 		</dict>
 		<key>Modules/Easebuzz.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hqQ2Bre4Cfjwpz485GL6n2VV7vNhWsIEAPB+0AwN8dE=
+			rESrrgv0NF+12FHCPtTpTPMPHeLaOXRjTZlQpXrEQvg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
