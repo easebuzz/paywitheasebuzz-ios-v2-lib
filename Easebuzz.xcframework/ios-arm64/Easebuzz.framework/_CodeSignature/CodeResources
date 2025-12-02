@@ -18,11 +18,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		33CraTlM4SVPopU6kssK7uUvwZM=
+		8GeaNczagMjIcdv0QsBMQtzXUIU=
 		</data>
 		<key>Modules/Easebuzz.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		MM+BN/Zc+gmUrFTd02ovPnw/TXo=
+		PLfHGqNmC91YMkQ+/g0teojbPLA=
 		</data>
 		<key>Modules/Easebuzz.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/Easebuzz.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Q/u3obVuSmFkh9b1sEgofYr+kzE=
+		mnDzCyGqEHh+QTiSo5vJZ4CeqrU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -84,7 +84,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jpjnDWUhsmlRLBAo1pEZEDzbQVxEv4c61fY53ZhdTbM=
+			L4hvFlB0mLCvcAMbuwPClw6hwgkR/O8E6AbxyFzrEr4=
 			</data>
 		</dict>
 		<key>Modules/Easebuzz.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -112,7 +112,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			i3gTozFXzV2Qku8rSdsI/QCJrY7aaVM2p4a/8at1vPM=
+			y07Sg9ohfC/g8XZ555IHs8v0u+vFYp9T9p/4CesJrkg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
