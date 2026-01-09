@@ -1938,6 +1938,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomNSError",
             "printedName": "CustomNSError",
             "usr": "s:10Foundation13CustomNSErrorP",
@@ -10477,6 +10484,13 @@
       },
       {
         "kind": "Import",
+        "name": "PDFKit",
+        "printedName": "PDFKit",
+        "declKind": "Import",
+        "moduleName": "Easebuzz"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -10786,6 +10800,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -11565,6 +11586,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -12716,7 +12744,7 @@
       "kind": "StringLiteral",
       "offset": 6113,
       "length": 22,
-      "value": "\"sdk_version=V2_05_24\""
+      "value": "\"sdk_version=V2_01_26\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
@@ -12727,360 +12755,353 @@
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 6227,
+      "length": 22,
+      "value": "\"enableChallanInSDK=1\""
+    },
+    {
+      "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "Dictionary",
-      "offset": 6297,
+      "offset": 6352,
       "length": 234,
       "value": "[(\"name\", \"Saved Cards\"), (\"image\", \"saveCards\"), (\"imageBBD\", \"bbd_save_cards\"), (\"code\", \"creditcard\"), (\"subtitle\", \"Use Saved Cards\"), (\"view\", \"savedcardview\")]"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "Dictionary",
-      "offset": 6557,
+      "offset": 6612,
       "length": 242,
       "value": "[(\"name\", \"Debit Card\"), (\"image\", \"DebitIcon\"), (\"imageBBD\", \"bbd_debit_card\"), (\"code\", \"debitcard\"), (\"subtitle\", \"All Debit Cards Accepted\"), (\"view\", \"debitcardview\")]"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "Dictionary",
-      "offset": 6826,
+      "offset": 6881,
       "length": 247,
       "value": "[(\"name\", \"Credit Card\"), (\"image\", \"CreditIcon\"), (\"imageBBD\", \"bbd_credit_card\"), (\"code\", \"creditcard\"), (\"subtitle\", \"All Credit Cards Accepted\"), (\"view\", \"creditcardview\")]"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "Dictionary",
-      "offset": 7100,
+      "offset": 7155,
       "length": 243,
       "value": "[(\"name\", \"Net Banking\"), (\"image\", \"netBanking\"), (\"imageBBD\", \"bbd_netbanking\"), (\"code\", \"netbanking\"), (\"subtitle\", \"99+ Netbanking Options\"), (\"view\", \"netbankingview\")]"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "Dictionary",
-      "offset": 7375,
+      "offset": 7430,
       "length": 231,
       "value": "[(\"name\", \"Paytm & Wallets\"), (\"image\", \"WalletIcon\"), (\"imageBBD\", \"bbd_wallet\"), (\"code\", \"cashcard\"), (\"subtitle\", \"Over 7 Wallets\"), (\"view\", \"cashcardview\")]"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "Dictionary",
-      "offset": 7626,
+      "offset": 7681,
       "length": 211,
       "value": "[(\"name\", \"UPI\"), (\"image\", \"upi\"), (\"imageBBD\", \"bbd_upi\"), (\"code\", \"upi\"), (\"subtitle\", \"Unified Payments Interface\"), (\"view\", \"upiview\")]"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7871,
+      "offset": 7926,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "Dictionary",
-      "offset": 8096,
+      "offset": 8151,
       "length": 197,
       "value": "[(\"name\", \"EMI\"), (\"image\", \"emi\"), (\"imageBBD\", \"bbd_emi\"), (\"code\", \"emi\"), (\"subtitle\", \"Over 7 Banks\"), (\"view\", \"emiview\")]"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "Dictionary",
-      "offset": 8318,
+      "offset": 8373,
       "length": 241,
       "value": "[(\"name\", \"Debit+ATM PIN\"), (\"image\", \"DebitATMIcon\"), (\"imageBBD\", \"bbd_AtmDebit\"), (\"code\", \"debitatm\"), (\"subtitle\", \"Over 7 Debit Atm Cards\"), (\"view\", \"debitatmview\")]"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8589,
+      "offset": 8644,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8822,
+      "offset": 8877,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9062,
+      "offset": 9117,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9327,
+      "offset": 9382,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9617,
+      "offset": 9672,
       "length": 29,
       "value": "\"in.easebuzz.PayWithEasebuzz\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9994,
+      "offset": 10049,
       "length": 20,
       "value": "\"powered_by_eb_icon\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10015,
+      "offset": 10070,
       "length": 14,
       "value": "\"pci_dss_icon\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10030,
+      "offset": 10085,
       "length": 9,
       "value": "\"bit_ssl\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10041,
+      "offset": 10096,
       "length": 22,
       "value": "\"commando_secure_icon\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "BooleanLiteral",
-      "offset": 10100,
+      "offset": 10155,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10170,
+      "offset": 10225,
       "length": 16,
       "value": "\"Helvetica-Bold\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 10231,
+      "offset": 10286,
       "length": 4,
       "value": "15.0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10267,
+      "offset": 10322,
       "length": 11,
       "value": "\"Helvetica\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 10324,
+      "offset": 10379,
       "length": 4,
       "value": "17.0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 10393,
+      "offset": 10448,
       "length": 2,
       "value": "92"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 10396,
+      "offset": 10451,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 10410,
+      "offset": 10465,
       "length": 2,
       "value": "94"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 10413,
+      "offset": 10468,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 10426,
+      "offset": 10481,
       "length": 3,
       "value": "102"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 10430,
+      "offset": 10485,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 10444,
+      "offset": 10499,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 10489,
+      "offset": 10544,
       "length": 2,
       "value": "26"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 10492,
+      "offset": 10547,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 10506,
+      "offset": 10561,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 10509,
+      "offset": 10564,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 10522,
+      "offset": 10577,
       "length": 3,
       "value": "150"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 10526,
+      "offset": 10581,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 10540,
+      "offset": 10595,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 10594,
+      "offset": 10649,
       "length": 3,
       "value": "240"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 10598,
+      "offset": 10653,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 10612,
+      "offset": 10667,
       "length": 3,
       "value": "240"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 10616,
+      "offset": 10671,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 10629,
+      "offset": 10684,
       "length": 3,
       "value": "240"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 10633,
+      "offset": 10688,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 10647,
+      "offset": 10702,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 10699,
+      "offset": 10754,
       "length": 3,
       "value": "183"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 10703,
+      "offset": 10758,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 10717,
+      "offset": 10772,
       "length": 2,
       "value": "28"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 10720,
+      "offset": 10775,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 10733,
+      "offset": 10788,
       "length": 2,
       "value": "28"
-    },
-    {
-      "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
-      "kind": "FloatLiteral",
-      "offset": 10736,
-      "length": 5,
-      "value": "255.0"
-    },
-    {
-      "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
-      "kind": "FloatLiteral",
-      "offset": 10750,
-      "length": 3,
-      "value": "1.0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
@@ -13092,399 +13113,413 @@
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 10797,
+      "offset": 10805,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 10846,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 10811,
+      "offset": 10852,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 10817,
+      "offset": 10866,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 10830,
+      "offset": 10872,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 10836,
+      "offset": 10885,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 10850,
+      "offset": 10891,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 10905,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 10921,
+      "offset": 10976,
       "length": 2,
       "value": "26"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 10924,
+      "offset": 10979,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 10938,
+      "offset": 10993,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 10941,
+      "offset": 10996,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 10954,
+      "offset": 11009,
       "length": 3,
       "value": "150"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 10958,
+      "offset": 11013,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 10972,
+      "offset": 11027,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11021,
+      "offset": 11076,
       "length": 2,
       "value": "26"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11024,
+      "offset": 11079,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11038,
+      "offset": 11093,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11041,
+      "offset": 11096,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11054,
+      "offset": 11109,
       "length": 3,
       "value": "150"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11058,
+      "offset": 11113,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11072,
+      "offset": 11127,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11164,
+      "offset": 11219,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11166,
+      "offset": 11221,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11180,
+      "offset": 11235,
       "length": 3,
       "value": "102"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11184,
+      "offset": 11239,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11197,
+      "offset": 11252,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11199,
+      "offset": 11254,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11213,
+      "offset": 11268,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11796,
+      "offset": 11851,
       "length": 10,
       "value": "\"NetBIcon\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11941,
+      "offset": 11996,
       "length": 17,
       "value": "\"pay.easebuzz.in\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12002,
+      "offset": 12057,
       "length": 15,
       "value": "\"SessionExpiry\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12065,
+      "offset": 12120,
       "length": 19,
       "value": "\"messageOnCardPage\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12138,
+      "offset": 12193,
       "length": 23,
       "value": "\"callWhenGoesToWebView\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12204,
+      "offset": 12259,
       "length": 47,
       "value": "\"Do you really want to cancel the transaction?\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12294,
+      "offset": 12349,
       "length": 47,
       "value": "\"Do you really want to failed the transaction?\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12377,
+      "offset": 12432,
       "length": 36,
       "value": "\"Do you really want to remove card?\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12449,
+      "offset": 12504,
       "length": 28,
       "value": "\"Sorry,Something went wrong\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12522,
+      "offset": 12577,
       "length": 72,
       "value": "\"Sorry,Something went wrong with your card information.Please try again\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12629,
+      "offset": 12684,
       "length": 24,
       "value": "\"No cards are available\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12683,
+      "offset": 12738,
       "length": 11,
       "value": "\"Enter CVV\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12726,
+      "offset": 12781,
       "length": 13,
       "value": "\"Invalid CVV\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12780,
+      "offset": 12835,
       "length": 25,
       "value": "\"No Internet Connection!\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12846,
+      "offset": 12901,
       "length": 36,
       "value": "\"Please check internet connectivity\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12916,
+      "offset": 12971,
       "length": 26,
       "value": "\"Please enter UPI address\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12975,
+      "offset": 13030,
       "length": 24,
       "value": "\"Please select UPI mode\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13038,
+      "offset": 13093,
       "length": 32,
       "value": "\"Please enter valid UPI address\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13096,
+      "offset": 13151,
       "length": 24,
       "value": "\"Please select EMI Plan\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13153,
+      "offset": 13208,
       "length": 56,
       "value": "\"Please enter card number before applying discount code\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13238,
+      "offset": 13293,
       "length": 50,
       "value": "\"Please select bank before applying discount code\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13319,
+      "offset": 13374,
       "length": 52,
       "value": "\"Please select wallet before applying discount code\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13406,
+      "offset": 13461,
       "length": 52,
       "value": "\"Please select wallet before applying discount code\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13496,
+      "offset": 13551,
       "length": 20,
       "value": "\"Please select bank\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13556,
+      "offset": 13611,
       "length": 22,
       "value": "\"Please select wallet\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13616,
+      "offset": 13671,
       "length": 62,
       "value": "\"Please enter valid card number before applying discount code\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13710,
+      "offset": 13765,
       "length": 55,
       "value": "\"Please enter CVV number before applying discount code\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13802,
+      "offset": 13857,
       "length": 61,
       "value": "\"Please enter valid CVV number before applying discount code\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13900,
+      "offset": 13955,
       "length": 56,
       "value": "\"Discount codes are not available for this payment mode\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/common\/Constants.swift",
       "kind": "BooleanLiteral",
-      "offset": 14012,
+      "offset": 14067,
       "length": 5,
       "value": "false"
     },
@@ -13519,42 +13554,42 @@
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/View\/PEBViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1196,
+      "offset": 1332,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/View\/PEBViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1247,
+      "offset": 1383,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/View\/PEBViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1643,
+      "offset": 1779,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/View\/PEBViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1721,
+      "offset": 1857,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/View\/PEBViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1746,
+      "offset": 1882,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/umeshpedde\/Documents\/All-SDK\/iOS\/SDK's\/SDK-V2\/V2-Master-Code\/paywitheasebuzz_ios_code_newdesign\/Easebuzz\/View\/PEBViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1763,
+      "offset": 1899,
       "length": 2,
       "value": "\"\""
     },

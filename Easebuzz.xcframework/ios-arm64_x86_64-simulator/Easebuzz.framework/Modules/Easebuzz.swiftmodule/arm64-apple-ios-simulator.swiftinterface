@@ -1,11 +1,12 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Easebuzz
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import DeveloperToolsSupport
 @_exported import Easebuzz
 import Foundation
 import JavaScriptCore
+import PDFKit
 import Swift
 import SwiftUI
 import SystemConfiguration
@@ -58,7 +59,9 @@ public enum SwiftyJSONError : Swift.Int, Swift.Error {
   case wrongType
   case notExist
   case invalidJSON
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -83,7 +86,9 @@ public enum Type : Swift.Int {
   case dictionary
   case null
   case unknown
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -202,13 +207,19 @@ extension Easebuzz.JSON : Swift.ExpressibleByNilLiteral {
   public init(nilLiteral: ())
 }
 extension Easebuzz.JSON : Swift.RawRepresentable {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Any)
+  #endif
   public var rawValue: Any {
     get
   }
   public func rawData(options opt: Foundation.JSONSerialization.WritingOptions = JSONSerialization.WritingOptions(rawValue: 0)) throws -> Foundation.Data
+  #if compiler(>=5.3) && $NonescapableTypes
   public func rawString(_ encoding: Swift.String.Encoding = .utf8, options opt: Foundation.JSONSerialization.WritingOptions = .prettyPrinted) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func rawString(_ options: [Easebuzz.writingOptionsKeys : Any]) -> Swift.String?
+  #endif
   public typealias RawValue = Any
 }
 extension Easebuzz.JSON : Swift.CustomStringConvertible, Swift.CustomDebugStringConvertible {
@@ -220,165 +231,207 @@ extension Easebuzz.JSON : Swift.CustomStringConvertible, Swift.CustomDebugString
   }
 }
 extension Easebuzz.JSON {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var array: [Easebuzz.JSON]? {
     get
   }
+  #endif
   public var arrayValue: [Easebuzz.JSON] {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var arrayObject: [Any]? {
     get
     set
   }
+  #endif
 }
 extension Easebuzz.JSON {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var dictionary: [Swift.String : Easebuzz.JSON]? {
     get
   }
+  #endif
   public var dictionaryValue: [Swift.String : Easebuzz.JSON] {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var dictionaryObject: [Swift.String : Any]? {
     get
     set
   }
+  #endif
 }
 extension Easebuzz.JSON {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var bool: Swift.Bool? {
     get
     set
   }
+  #endif
   public var boolValue: Swift.Bool {
     get
     set
   }
 }
 extension Easebuzz.JSON {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var string: Swift.String? {
     get
     set
   }
+  #endif
   public var stringValue: Swift.String {
     get
     set
   }
 }
 extension Easebuzz.JSON {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var number: Foundation.NSNumber? {
     get
     set
   }
+  #endif
   public var numberValue: Foundation.NSNumber {
     get
     set
   }
 }
 extension Easebuzz.JSON {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var null: Foundation.NSNull? {
     get
     set
   }
+  #endif
   public func exists() -> Swift.Bool
 }
 extension Easebuzz.JSON {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var url: Foundation.URL? {
     get
     set
   }
+  #endif
 }
 extension Easebuzz.JSON {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var double: Swift.Double? {
     get
     set
   }
+  #endif
   public var doubleValue: Swift.Double {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var float: Swift.Float? {
     get
     set
   }
+  #endif
   public var floatValue: Swift.Float {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var int: Swift.Int? {
     get
     set
   }
+  #endif
   public var intValue: Swift.Int {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var uInt: Swift.UInt? {
     get
     set
   }
+  #endif
   public var uIntValue: Swift.UInt {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var int8: Swift.Int8? {
     get
     set
   }
+  #endif
   public var int8Value: Swift.Int8 {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var uInt8: Swift.UInt8? {
     get
     set
   }
+  #endif
   public var uInt8Value: Swift.UInt8 {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var int16: Swift.Int16? {
     get
     set
   }
+  #endif
   public var int16Value: Swift.Int16 {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var uInt16: Swift.UInt16? {
     get
     set
   }
+  #endif
   public var uInt16Value: Swift.UInt16 {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var int32: Swift.Int32? {
     get
     set
   }
+  #endif
   public var int32Value: Swift.Int32 {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var uInt32: Swift.UInt32? {
     get
     set
   }
+  #endif
   public var uInt32Value: Swift.UInt32 {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var int64: Swift.Int64? {
     get
     set
   }
+  #endif
   public var int64Value: Swift.Int64 {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var uInt64: Swift.UInt64? {
     get
     set
   }
+  #endif
   public var uInt64Value: Swift.UInt64 {
     get
     set
