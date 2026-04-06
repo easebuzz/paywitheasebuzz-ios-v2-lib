@@ -22,12 +22,12 @@ Pod::Spec.new do |spec|
   spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   spec.vendored_framework = 'Easebuzz.xcframework'
-  spec.ios.deployment_target = '12.0'
+  spec.ios.deployment_target = '13.0'
   
   spec.swift_version = '5.0'
   
    spec.platforms = {
-     'ios' => '12.0'
+     'ios' => '13.0'
    }
 
 end
