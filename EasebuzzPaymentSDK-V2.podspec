@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "EasebuzzPaymentSDK-V2"
-  spec.version      = "1.3.22"
+  spec.version      = "1.3.23"
   spec.summary      = "CocoaPod implementation of Easebuzz Payment SDK."
   spec.description  = <<-DESC
   'We are one of India’s leading payment solutions platform, serving more than 1,00,000 businesses with full-stack technology solutions to accept payments, send payouts & manage end-to-end financial operations with ease.....'
@@ -20,12 +20,12 @@ Pod::Spec.new do |spec|
   spec.author             = { "easebuzz" => "info@easebuzz.in" }
   spec.source       = { :git => 'https://github.com/easebuzz/paywitheasebuzz-ios-v2-lib.git', :tag => spec.version.to_s }
   spec.vendored_framework = 'Easebuzz.xcframework'
-  spec.ios.deployment_target = '13.0'
+  spec.ios.deployment_target = '15.0'
   
   spec.swift_version = '5.0'
   
    spec.platforms = {
-     'ios' => '13.0'
+     'ios' => '15.0'
    }
 
 end
